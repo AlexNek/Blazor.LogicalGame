@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicalGame", "LogicalGame\LogicalGame\LogicalGame.csproj", "{AF4CBFE1-1BA2-48A6-ABD7-7BC197081FF2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicalGame.Client", "LogicalGame\LogicalGame.Client\LogicalGame.Client.csproj", "{840B2A83-A8CB-4C18-824E-5A6961962CCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{683EEE6B-C853-4FE1-8FB3-E9DDFAD0D4E4}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF4CBFE1-1BA2-48A6-ABD7-7BC197081FF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF4CBFE1-1BA2-48A6-ABD7-7BC197081FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF4CBFE1-1BA2-48A6-ABD7-7BC197081FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF4CBFE1-1BA2-48A6-ABD7-7BC197081FF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{840B2A83-A8CB-4C18-824E-5A6961962CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{840B2A83-A8CB-4C18-824E-5A6961962CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{840B2A83-A8CB-4C18-824E-5A6961962CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{840B2A83-A8CB-4C18-824E-5A6961962CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76801D06-3018-407F-944A-0A8252DAB33B}
+	EndGlobalSection
+EndGlobal

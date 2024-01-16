@@ -1,0 +1,36 @@
+﻿@page "/game"
+@using LogicalGame.Client.Components
+@rendermode InteractiveAuto
+
+<PageTitle>Logical game</PageTitle>
+
+<h1>Logical game</h1>
+Place the colors on the same color people. Tip: Use the 4 arrow buttons to move colors.
+
+<div class="page-background" style="height: 600px; width: 800px;">
+    @* ---left circle--- *@
+    <ColorComponent Class="position01" ColorIndex="@GetColorIndex(1)"></ColorComponent>
+    <ColorComponent Class="position02" ColorIndex="@GetColorIndex(2)"></ColorComponent>
+    <ColorComponent Class="position03" ColorIndex="@GetColorIndex(3)"></ColorComponent>
+    <ColorComponent Class="position04" ColorIndex="@GetColorIndex(4)"></ColorComponent>
+    <ColorComponent Class="position05" ColorIndex="@GetColorIndex(5)"></ColorComponent>
+    @* ---right circle--- *@
+    <ColorComponent Class="position06" ColorIndex="@GetColorIndex(6)"></ColorComponent>
+    <ColorComponent Class="position07" ColorIndex="@GetColorIndex(7)"></ColorComponent>
+    <ColorComponent Class="position08" ColorIndex="@GetColorIndex(8)"></ColorComponent>
+    <ColorComponent Class="position09" ColorIndex="@GetColorIndex(9)"></ColorComponent>
+    <ColorComponent Class="position10" ColorIndex="@GetColorIndex(10)"></ColorComponent>
+    @* ---Buttons--- *@
+    @* <Tooltip Text="aaaaaaaa" Class="btn-position1"> *@
+    <button class="btn btn-primary btn-arrow-r btn-position1" style="height: 37px; width: 61px;" @onclick="RotageBigLeft"></button>
+    @*  </Tooltip> *@
+    <button class="btn btn-primary btn-arrow-r btn-position2" style="height: 37px; width: 61px;" @onclick="RotageBigRight"></button>
+    <button class="btn btn-primary btn-round-arrow-l btn-position3" style="height: 37px; width: 37px;" @onclick="RotateLeftTable"></button>
+    <button class="btn btn-primary btn-round-arrow-r btn-position4" style="height: 37px; width: 37px;" @onclick="RotateRightTable"></button>
+</div>
+
+<button class="btn btn-primary"  @onclick="Reset">Reset</button>
+<button class="btn btn-primary" @onclick="Solution">Show solution</button>
+
+
+

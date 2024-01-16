@@ -1,0 +1,115 @@
+﻿.page-background {
+    background-image: url(./images/background-filled.jpg)
+}
+
+.btn-arrow-r {
+    display: inline-block;
+    border: none;
+    background-image: url('./images/arrow-r3d.png');
+    background-color: transparent;
+}
+
+.btn-arrow-l {
+    display: inline-block;
+    border: none;
+    background-image: url('./images/arrow-l.png');
+    background-color: transparent;
+}
+
+.btn-round-arrow-r {
+    display: inline-block;
+    border: none;
+    background-image: url('./images/round-arrow-r3d.png');
+    background-color: transparent;
+}
+
+.btn-round-arrow-l {
+    display: inline-block;
+    border: none;
+    background-image: url('./images/round-arrow-l3d.png');
+    background-color: transparent;
+}
+
+::deep .btn-position1 {
+    position: relative;
+    left: 370px;
+    top: 230px;
+}
+
+::deep .btn-position2 {
+    position: relative;
+    left: 310px;
+    top: -170px;
+}
+
+::deep .btn-position3 {
+    position: relative;
+    left: 6px;
+    top: 32px;
+}
+
+::deep .btn-position4 {
+    position: relative;
+    left: 455px;
+    top: 32px;
+}
+
+::deep .position01 {
+        position: relative;
+        left: 48px;
+        top: 194px;
+    }
+
+::deep .position02 {
+    position: relative;
+    left: 191px;
+    top: 124px;
+}
+
+::deep .position03 {
+    position: relative;
+    left: 282px;
+    top: 229px;
+}
+
+::deep .position04 {
+    position: relative;
+    left: 196px;
+    top: 327px;
+}
+
+::deep .position05 {
+    position: relative;
+    left: 44px;
+    top: 263px;
+}
+/*right*/
+::deep .position06 {
+    position: relative;
+    left: 503px;
+    top: 156px;
+}
+
+::deep .position07 {
+    position: relative;
+    left: 588px;
+    top: 8px;
+}
+
+::deep .position08 {
+    position: relative;
+    left: 740px;
+    top: 23px;
+}
+
+::deep .position09 {
+    position: relative;
+    left: 737px;
+    top: 164px;
+}
+
+::deep .position10 {
+    position: relative;
+    left: 595px;
+    top: 187px;
+}

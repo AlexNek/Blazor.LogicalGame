@@ -1,0 +1,30 @@
+﻿@if (_imageSource is not null)
+{
+    <div class ="@Class">
+        <img src="@_imageSource" />
+    </div>
+}
+
+
+@code {
+
+    [Parameter]
+    public string Class { get; set; }
+
+    [Parameter]
+    public int ColorIndex { get; set; }
+
+    private string? _imageSource = null;
+
+    /// <summary>
+    /// Method invoked when the component has received parameters from its parent in
+    /// the render tree, and the incoming values have been assigned to properties.
+    /// </summary>
+    /// <returns>A <see cref="T:System.Threading.Tasks.Task" /> representing any asynchronous operation.</returns>
+    protected override async Task OnParametersSetAsync()
+    {
+        await base.OnParametersSetAsync();
+        _imageSource = $"./images/color{ColorIndex:D2}.png";
+    }
+
+}
